@@ -3237,3 +3237,19 @@ img {
     line-height: 1.4;
   }
 }
+/* 모바일 제목 - 줄바꿈 방지 + 크기 자동 조절 */
+@media (max-width: 768px) {
+  .section-title,
+  h2 {
+    word-break: keep-all;
+    white-space: nowrap;
+    font-size: clamp(18px, 5vw, 32px);
+  }
+  
+  .section-subtitle,
+  h3 {
+    word-break: keep-all;
+    white-space: nowrap;
+    font-size: clamp(14px, 3.5vw, 20px);
+  }
+}

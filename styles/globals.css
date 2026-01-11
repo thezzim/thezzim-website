@@ -3242,7 +3242,7 @@ img {
   .section-title,
   h2 {
     word-break: keep-all;
-    font-size: clamp(24px, 6vw, 36px);
+    font-size: clamp(28px, 6vw, 36px);
   }
   
   .section-subtitle,

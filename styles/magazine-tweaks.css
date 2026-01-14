@@ -1,0 +1,16 @@
+/* 매거진 페이지 히어로 아래 첫 섹션 간격을 메인과 맞춤 */
+
+.magazine-section {
+  padding-top: 60px;
+}
+
+/* MAGAZINE과 THE ZZIM 매거진 사이 간격 줄이기 */
+.magazine-label {
+  margin-bottom: 7px !important;
+}
+
+/* THE ZZIM 매거진과 카테고리 버튼 사이 간격 줄이기 */
+.magazine-title {
+  margin-bottom: 29px !important;
+}
+

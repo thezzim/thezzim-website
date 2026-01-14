@@ -1,0 +1,45 @@
+/* 모바일 UI 미세 조정 (globals.css 위에 오버라이드) */
+
+@media (max-width: 900px) {
+  /* 모바일 메뉴 내 버튼 공통 높이/타이포 통일 (언어 버튼 + 예약 버튼) */
+  .header-nav .mobile-lang-btn,
+  .header-nav .mobile-reserve-btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 25px;
+    min-height: 44px;
+  }
+
+  /* 햄버거 버튼: 전체 터치영역은 유지하고, 라인만 살짝 슬림하게 */
+  .mobile-menu-btn {
+    gap: 3px;
+  }
+
+  .mobile-menu-btn span {
+    width: 18px;
+    margin: 2px 0;
+  }
+
+  .mobile-menu-btn.open span:nth-child(1) {
+    transform: rotate(45deg) translate(3px, 3px);
+  }
+
+  .mobile-menu-btn.open span:nth-child(3) {
+    transform: rotate(-45deg) translate(3px, -3px);
+  }
+
+  /* 모바일 예약 버튼: 언어 설정 버튼과 폭/패딩/폰트 크기 맞춤 */
+  .header-nav .mobile-reserve-btn {
+    width: calc(100% - 48px);
+    margin-top: 20px;
+    margin-left: 24px;
+    margin-right: 24px;
+    text-decoration: none;
+  }
+
+  .header-nav .mobile-reserve-btn svg {
+    width: 16px;
+    height: 16px;
+  }
+}
+

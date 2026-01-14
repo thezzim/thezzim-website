@@ -1,0 +1,37 @@
+/* 플로팅 버튼(우측 하단) 추가 단축 버튼 스타일 */
+
+.floating-btn-shortcut {
+  background: var(--color-gray-dark);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.floating-btn-shortcut:hover {
+  border-color: rgba(255, 255, 255, 0.28);
+}
+
+.floating-btn-menu .floating-btn-icon {
+  width: 24px;
+  height: 24px;
+  color: var(--color-white);
+  fill: var(--color-white);
+}
+
+.floating-btn-location .floating-btn-icon {
+  width: 24px;
+  height: 24px;
+  color: var(--color-primary);
+  fill: var(--color-primary);
+}
+
+@media (max-width: 768px) {
+  .floating-btn-menu .floating-btn-icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .floating-btn-location .floating-btn-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
